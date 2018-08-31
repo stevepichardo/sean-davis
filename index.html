@@ -8,25 +8,52 @@
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="contact-info">
-            <h2 class="name animated bounceInDown slow">sean davis</h2>
-            <ul class="animated fadeInLeft slow">
-                <li>Creator</li>
-                <li>Photography</li>
-                <li>cinematography</li>
-            </ul>
+    <header>
+        <div class="center">
+            <div class="contact-info">
+                <h1 class="name animated bounceInDown slow">sean davis</h1>
+                <ul class="animated fadeInLeft slow">
+                    <li>Creator</li>
+                    <li>Photography</li>
+                    <li>cinematography</li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </header>
 
-    <script>
+    <!-- Section Contact Me -->
 
-    </script>
+    <section class="contact-me">
+        <div class="container">
+            <h2>Hire Me?</h2>
+            <div class="row">
+                <form>
+                    <div class="row">
+                        <div class="six columns">
+                            <label for="EmailInput">Your email</label>
+                            <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="EmailInput">
+                        </div>
+                        <div class="six columns">
+                            <label for="phoneInput">Phone Number</label>
+                            <input class="u-full-width" type="tel" placeholder="(###) ### - ####" id="phoneInput">
+                        </div>
+                    </div>
+                    <label for="exampleMessage">Message</label>
+                    <textarea class="u-full-width" placeholder="Hi Sean … and type of  work..." id="Message"></textarea>
+                    <label class="end-yourself-copy">
+                        <input type="checkbox">
+                        <span class="label-body">Send a copy to yourself</span>
+                    </label>
+                    <input class="button-primary" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
